@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.PageWidth{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.flexdiv{
+    display: flex;
+}
+.flexDirection{
+    flex-direction: column;
+    align-items: center;
+}
+.marginTop{
+    margin-top: 5%! important;
+}
+.flexgap{
+    gap: 156px;
+}
+.header>.NavBar>ul{
+    display: flex;
+    gap: 20px;
+}
+.header>.NavBar>ul>li{
+    list-style: none;
+}
+.header>.NavBar>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.Logodiv{
+    gap: 20px;
+    align-items: center;
+}
+.header{
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.WebsiteName{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+input[type=text]{
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    background-image: url(Pics/images/Searchicon.png);
+    background-repeat: no-repeat;
+    background-size: 43px;
+    background-position-x: right;
+    background-position-y: center;
+}
+h4{
+    color: red;
+}
+.bannerimg{
+    background-image: url(Pics/images/banner1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 400px;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 29px;
+    border: none;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    max-width: 632px;
+    color: white;
+}
+.DealDivText>h2{
+    line-height: 2.5rem;
+}
+p{
+    color:white;
+}
+.btn{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.fruitlist{
+    justify-content: center;
+    gap: 26px;
+    background: white;
+    max-width: 865px;
+    margin: 0 auto;
+    margin-top: -76px;
+    box-shadow: 0px 2px 3px 1px #f6f4f4;
+    border-radius: 6px;
+}
+.DealDivContainer{
+    margin-top: 5%;
+}
+.DealDivContent{
+    max-width: 1350px;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.DealDivText{
+    flex-direction: column;
+    justify-content: center;
+    max-width: 496px;
+}
+.DealTime{
+    gap: 20px;
+    align-items: center;
+}
+.borderleft::after{
+content:"";
+border-right: 4px dotted;
+}
+.DealDivSmalltext,
+.smallTimeText{
+    color: gray;
+}
+.fruitCatelog{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5%;
+}
+.fruit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid lightgray;
+    width: 225px;
+}
+.fruitCatelog>.fruit>h3{
+    width: 161px;
+    border-bottom: 1px solid;
+    height: 40px;
+}
+.fruitCatelogDivWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.MeetTheTeamBGIMGDiv{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Pics/images/team.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.TeamFlex{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.Team{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Team>img{
+    width: 94px
+}
+.MeetTheTeamSection{
+    margin-top: 6%;
+}
+.MeetTheTeamContent{
+    max-width: 595px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.MemberDesignation{
+    color: white;
+}
+.WhyChooseusContent>h1{
+    color: black;
+}
+.WhyChooseusContent>p{
+    color: black;
+}
+.WhychooseusSection{
+    margin-top: 5%;
+}
+.WhyChooseusContent{
+    text-align: center;
+    max-width: 595px;
+    margin: 0 auto;
+}
+.dedicatedteamFlex{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+.ListcontentSmall{
+    color: lightslategray;
+}
+.list1divflex,
+.list2divflex{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.list1,
+.list2{
+    line-height: 2rem;
+}
+.imagediv>img{
+    margin: 20px;
+}
+.list2{
+    text-align: end;
+}
+.ListcontentDiv{
+    position: relative;
+}
+.HrLine2::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    border: 1px solid;
+    width: 50%;
+}
+.HrLine::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    border: 1px solid;
+    width: 38%;
+}
+.Footer>.footerflex>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.footersection{
+    background: black;
+}
+.footerflex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.footerimgdiv{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    gap: 10px;
+}
+.Footer>.footerflex>nav>ul{
+    display: flex;
+    gap: 20px;
+}
+.footerlogoflex{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
